@@ -1,0 +1,17 @@
+:root{
+    --accent-color: #7777;
+    --background-fotm-color: #000;
+    --main-text: #222;
+    --accent-color-on-form-section: #ffffffff;
+    --placehokders: red; 
+    --service-text: #777;
+}
+p{
+    color: var(--accent-color);
+}
+a{
+    color: var(--placehokders);
+}
+h1{
+    color: var(--main-text);
+}
