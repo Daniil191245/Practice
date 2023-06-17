@@ -1,17 +1,11 @@
 :root{
-    --accent-color: #7777;
-    --background-fotm-color: #000;
-    --main-text: #222;
-    --accent-color-on-form-section: #ffffffff;
-    --placehokders: red; 
-    --service-text: #777;
-}
-p{
-    color: var(--accent-color);
-}
-a{
-    color: var(--placehokders);
-}
-h1{
-    color: var(--main-text);
+    --name-color: #212121;
+    --text-imformation: #757575;
+    --background-color-section-hero: #FFFFFF;
+    --button-logo-nav: #2196F3;
+    --logo-name: #000000;
+--background-hero-section-two: #2F303A;
+--footer-text-section: FFFFFF;
+--background-color-header: #ECECEC;
+--sections: #F5F4FA;
 }
