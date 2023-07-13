@@ -66,7 +66,7 @@ letter-spacing: 0.2px;
     padding: 0 15px;
 }
 .hero-text{
-    color: #F6F6F6;
+    color: var(--hero-text);
 text-align: center;
 font-family: Montserrat;
 font-size: 24px;
@@ -77,7 +77,7 @@ letter-spacing: 0.1px;
 margin-bottom: 10px;
 }
 .hero-name{
-    color: #FFF;
+    color: var(--hero-name);
 text-align: center;
 font-family: Poppins;
 font-size: 58px;
@@ -88,7 +88,7 @@ letter-spacing: 0.2px;
 margin-bottom: 16px;
 }
 .hero-text-two{
-    color: #F6F6F6;
+    color: var(--hero-text);
 text-align: center;
 font-family: Montserrat;
 font-size: 24px;
@@ -183,10 +183,6 @@ color: var(--second-text);
 }
 .tel-information{
     display: flex;
-    
-    /* display: grid;
-    gap: 250px;
-grid-template-columns: repeat(2,1fr); */
 }
 .inform{
     padding: 105px 0px;
@@ -259,7 +255,10 @@ color: var(--hero-name);
     margin: 0 auto;
     padding: 50px 7px;
 }
-.footer-Copywright{
+.logotype-footer{
+    margin-right: 830px;
+}
+.footer-copywright{
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -269,4 +268,3 @@ color: var(--hero-name);
     text-align: end;
     color: var(--second-text-footer);
 }
-/* Треба ще доробити підвал */
