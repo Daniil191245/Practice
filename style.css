@@ -99,7 +99,7 @@ letter-spacing: 0.2px;
 margin-bottom: 54px;
 }
 .button{
-    padding-left: 110px;
+    text-align: center;
 }
 .button-hero{
     width: 236px;
@@ -136,10 +136,10 @@ color: var(--hero-name);
 .tel-information-registr{
     display: flex;
     gap: 287px;
-    padding-bottom: 108px;
+    margin-bottom: 108px;
 }
 .registr-information{
-    padding: 113px 0px;
+    margin: 113px 0px;
 }
 .name-hero{
 font-family: Poppins;
@@ -149,7 +149,7 @@ font-weight: 600;
 line-height: 36px;
 letter-spacing: 0.1px;
 text-align: center;
-padding: 56px 0px 70px;
+margin: 56px 0px 70px;
 color: var(--head);
 }
 .text-information-registr{
@@ -196,9 +196,9 @@ color: var(--second-text);
     margin: 148px 0px 78px;
 }
 .container-section{
-    max-width: 870px;
+    max-width: 840px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 147px 15px 130px;
 }
 .name-order{
 font-family: Montserrat;
@@ -208,30 +208,34 @@ font-weight: 700;
 line-height: 57px;
 letter-spacing: 0.2px;
 text-align: center;
-padding-top: 147px;
+/* padding-top: 147px; */
 margin-bottom: 20px;
 color: var(--hero-name);
 }
-.name-order+p{
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 38px;
-letter-spacing: 0.2px;
-text-align: center;
-margin-bottom: 70px;
-color: var(--hero-name);
+.order-text{
+    width: 840px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--hero-name);
+}
+.buttons{
+    /* display: flex;
+  justify-content: center; */
+    text-align: center;
 }
 .button-one{
     border-radius: 10px;
 background: var(--nav-color);
 cursor: pointer;
-margin: 0 auto;
 padding: 18px 31px;
-margin-right: 16px;
-margin-left: 250px;
-margin-bottom: 130px;
+margin-right: 20px;
+/* margin-bottom: 130px; */
 }
 .button-two{
     border-radius: 10px;
@@ -256,7 +260,7 @@ color: var(--hero-name);
     padding: 50px 7px;
 }
 .logotype-footer{
-    margin-right: 830px;
+    margin-right: 840px;
 }
 .footer-copywright{
     font-family: Roboto;
