@@ -77,6 +77,9 @@ letter-spacing: 0.1px;
 margin-bottom: 10px;
 }
 .hero-name{
+    width: 799px;
+height: 151.111px;
+
     color: var(--hero-name);
 text-align: center;
 font-family: Poppins;
@@ -259,9 +262,14 @@ color: var(--hero-name);
     margin: 0 auto;
     padding: 50px 7px;
 }
-.logotype-footer{
-    margin-right: 840px;
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+/* .logotype-footer{
+    margin-right: 840px;
+} */
 .footer-copywright{
     font-family: Roboto;
     font-size: 12px;
